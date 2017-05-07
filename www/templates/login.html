@@ -1,26 +1,30 @@
-<div class="bar bar-header bar-positive loginnome">
+<div class="bar bar-header bar-assertive loginnome">
   <h1 class="title">Mobile Market</h1>
 </div>
-        <div class="list">
-            <label class="item item-input item-stacked-label">
-                <span class="input-label">E-mail</span>
-            <input type="text" placeholder="E-mail" ng-model="email">
-            </label>
-            <label class="item item-input item-stacked-label">
-                <span class="input-label">Senha</span>
-                <input type="password" placeholder="Senha" ng-model="senha">
-            </label>
-            
-       </div>
-      <div class="padding">
-          <button class="button button-block button-positive" ng-click="fazerLogin(email, senha)">
-          Entrar
-          </button>
-  <div class="button button-block button-outline button-positive" ng-click="abrirCadastro()">
-  Cadastrar-se
+<div class="tela-login" >
+            <div class="list">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label login">E-mail</span>
+                <input class="email" type="text" placeholder="E-mail" ng-model="email">
+                </label>
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label senha">Senha</span>
+                    <input class="email" type="password" placeholder="Senha" ng-model="senha">
+                </label>
+                
+        </div>
+        <div class="padding">
+            <button class="button button-block button-dark" ng-click="fazerLogin(email, senha)">
+            Entrar
+            </button>
+    <div class="button button-block button-assertive" ng-click="abrirCadastro()">
+    Cadastrar-se
+    </div>
+
+    </div>  
+
+    <a class="button button-icon icon ion-settings martelo" href="#telacadastro"></a>
 </div>
 
-</div>  
 
-<a class="button button-icon icon ion-settings martelo" href="#telacadastro"></a>
 

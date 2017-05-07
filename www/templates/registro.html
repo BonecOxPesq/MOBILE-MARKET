@@ -1,39 +1,30 @@
-    <div class="bar bar-header bar-positive loginnome">
+    <div class="bar bar-header bar-assertive loginnome">
     <h1 class="title">Mobile Market</h1>
     </div>
 
     <div class="geral"> 
             <div class="list">
                 <label class="item item-input item-stacked-label">
-                    <span class="input-label">Email</span>
-                    <input type="text" placeholder="Email" ng-model="email">
+                    <span class="input-label login">Email</span>
+                    <input class="login" type="text" placeholder="Email" ng-model="email">
                 </label>
                 <label class="item item-input item-stacked-label">
-                    <span class="input-label">Nome</span>
-                    <input type="text" placeholder="Nome" ng-model="Nome">
+                    <span class="input-label nome">Nome</span>
+                    <input class="nome" type="text" placeholder="Nome" ng-model="Nome">
                 </label>
                 <label class="item item-input item-stacked-label">
-                    <span class="input-label">Senha</span>
-                    <input type="password" placeholder="Senha" ng-model="senha">
+                    <span class="input-label senha">Senha</span>
+                    <input class="senha" type="password" placeholder="Senha" ng-model="senha">
                 </label>
 
-                                    <label class="item item-input item-select">
-                        <div class="input-label">
-                        País
-                        </div>
-                        <select>
-                        <option selected>  </option>
-                        <option>Brasil</option>
-                        <option>United States</option>
-                        </select>
-                    </label>
             </div>
+    
                 
             <div class="padding">
-                    <button class="button button-block button-positive" ng-click="novoCadastro(email, senha)">
+                    <button class="button button-block button-assertive" ng-click="novoCadastro(email, senha)">
                     Cadastre-se
                     </button>
-                        <a class="button button-small button-block button button-outline button-positive"  href="#login">
+                        <a class="button button-small button-block button button-dark"  href="#login">
                        Tem Cadastro?
                         </a>
             </div>

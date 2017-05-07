@@ -39,3 +39,45 @@
     position: static
     
 }
+
+.tela-login {
+background-image: url("../img/foto2.jpg");
+height: 100%;
+background-repeat:  no-repeat;
+background-size: cover;
+}
+
+.login {
+    color:snow;
+    font-weight: bold;
+}
+
+.senha {
+    color:snow;
+    font-weight: bold;
+}
+
+.nome {
+    color:snow;
+    font-weight: bold;
+}
+
+input.email {
+    background-color:rgba(255,255,255, 0.9);
+}
+
+input.email {
+    background-color:rgba(255,255,255, 0.9);
+}
+
+.item.item-input {
+    padding-right: 16px;
+}
+
+.geral {
+background-image: url("../img/foto2.jpg");
+height: 100%;
+background-repeat:  no-repeat;
+background-size: cover;
+}
+
